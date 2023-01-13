@@ -27,7 +27,40 @@ $num3 = 10;
  echo $num3;
 
 
-echo str_replace('a','w', $text)
+echo str_replace('a','w', $text);
+
+// if
+
+
+$age2 = 10 ;
+
+if($age2>=18){
+    echo 'you are allowed to vote';
+}elseif($age2<18){
+    echo 'you are young to vote';
+}else{
+    echo 'you are lucky to vote';
+}
+
+// switch
+
+$color = "blu";
+
+switch($color){
+    case "red":
+    echo"red";
+    break;
+    case "green":
+    echo"green";
+    break;
+    case "blue" :
+    echo"blue";
+    break;
+    default :
+    echo"No Color of the sort";
+}
+
+
 ?>
 </body>
 </html>

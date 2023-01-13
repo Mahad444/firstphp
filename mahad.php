@@ -13,8 +13,7 @@ elseif($age<18)
 }else($age){
     echo("you are 18yrs");
 }
-// SITCH
-$age2=
+
 ?>
 
 <!-- LOOPS -->
@@ -34,6 +33,19 @@ while($i<=10){
 <!-- do while -->
 <?php
 do{
-    
+
 }
+
+$fruits = array('mango', 'orange', 'pineapple', 'apple');
+print($fruits);
+// another way
+$age5 = [15,16,17,19,23];
+print($age5)
+// adding the array
+array_push($age5,35)
+// using for each 
+foreach($fruits as $fruit){
+    echo "fruit".$fruit."<br>"
+}
+
 ?>
