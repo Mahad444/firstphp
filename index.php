@@ -17,9 +17,9 @@ $num2 = 15 ;
 
 $result = $num1 + $num2;
 
-echo "the answer is ".$result;
+echo "the answer is ".$result."<br>";
 
-$text = "myname";
+$text = "myname"."<br>";
 
 echo strtoupper($text) ;
 $num3 = 10;
@@ -59,8 +59,33 @@ switch($color){
     default :
     echo"No Color of the sort";
 }
-
-
 ?>
+
+<div>
+    <?php
+    $numbersByFive = array(15,20,21,22,17,30);
+    foreach($numbersByFive as $answer){
+        $anser = $answer/5;
+        if($answer%5)
+ echo "number is not divisible by five is =".$answer."<br>";
+ else{
+    print_r("this is divisible by five is =".$answer."<br>");
+ }
+    }
+    ?>
+</div>
+<div>
+    <?php
+    $alphabetLetters = array("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
+    foreach($alphabetLetters as $counterr);
+    $counterr = "Institution";
+    if ($counterr === count($alphabetLetters)){
+        echo "the letters are".$counterr;
+    } 
+
+
+     
+    ?>
+</div>
 </body>
 </html>
