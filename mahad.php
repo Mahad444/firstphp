@@ -4,14 +4,14 @@ $age = 18;
 
 if ($age >= 18)
 {
-    echo "you 18yrs and above "
+    echo "you 18yrs and above ";
 }
 
 elseif($age<18)
 {
     echo("you are not 18yrs");
-}else($age){
-    echo("you are 18yrs");
+}else($age = 18){
+    echo "you are 18yrs" ;
 }
 
 ?>
@@ -25,7 +25,7 @@ for ($i= 1; $i<=10; $i++){
 ?>
 <!-- While Loop -->
 <?php
-$i=i;
+$i=1;
 while($i<=10){
     echo i
 }
@@ -35,6 +35,7 @@ while($i<=10){
 do{
 
 }
+// ARRAYS
 
 $fruits = array('mango', 'orange', 'pineapple', 'apple');
 print_r($fruits);
@@ -47,6 +48,7 @@ array_push($age5,35)
 foreach($fruits as $fruit){
     echo "fruit".$fruit."<br>"
 }
+
 //functions
 function functionName(parameter1,parameter2){
     return()
@@ -60,6 +62,6 @@ $results = NumberAdding(20,30)
 echo $results
 ?>
 <!-- Exercise
-**write a ffunction thats's going to count the number of characters in  a word
+**write a function thats's going to count the number of characters in  a word
 
 -->
